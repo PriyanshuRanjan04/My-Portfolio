@@ -1,36 +1,71 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
+// const projects = [
+//   {
+//     id: 1,
+//     title: "SaaS Landing Page",
+//     description: "A beautiful landing page app using React and Tailwind.",
+//     image: "/projects/project1.png",
+//     tags: ["React", "TailwindCSS", "Supabase"],
+//     demoUrl: "#",
+//     githubUrl: "#",
+//   },
+//   {
+//     id: 2,
+//     title: "Orbit Analytics Dashboard",
+//     description:
+//       "Interactive analytics dashboard with data visualization and filtering capabilities.",
+//     image: "/projects/project2.png",
+//     tags: ["TypeScript", "D3.js", "Next.js"],
+//     demoUrl: "#",
+//     githubUrl: "#",
+//   },
+//   {
+//     id: 3,
+//     title: "E-commerce Platform",
+//     description:
+//       "Full-featured e-commerce platform with user authentication and payment processing.",
+//     image: "/projects/project3.png",
+//     tags: ["React", "Node.js", "Stripe"],
+//     demoUrl: "#",
+//     githubUrl: "#",
+//   },
+// ];
+
+
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "AI-Powered E-commerce Chat Assistant",
+    description:
+      "An intelligent chatbot that automated 70% of repetitive e-commerce queries using NLP and AI-driven recommendations, improving user engagement and conversion rates.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["ReactJS", "Next.js", "MongoDB", "AI Integration"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Dishcovery – AI Recipe Assistant",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "An AI-powered recipe assistant built with LangChain and Gemini LLM to generate personalized meal plans with 35% higher suggestion accuracy and 99.9% uptime.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["React", "Next.js", "FastAPI", "LangChain", "Python"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Personal Portfolio Website",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A modern, responsive portfolio built with React, Tailwind CSS, and Framer Motion animations to showcase my projects, skills, and AI-focused work.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
     demoUrl: "#",
     githubUrl: "#",
   },
 ];
+
 
 export const ProjectsSection = () => {
   return (
@@ -100,7 +135,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/PriyanshuRanjan04"
           >
             Check My Github <ArrowRight size={16} />
           </a>
