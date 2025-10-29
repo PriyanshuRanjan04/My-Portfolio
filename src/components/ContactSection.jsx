@@ -90,7 +90,7 @@ export const ContactSection = () => {
               </div>
             </div>
 
-            {/* <div className="pt-8">
+            <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="#" target="_blank">
@@ -107,39 +107,8 @@ export const ContactSection = () => {
                 </a>
               </div>
             </div>
-          </div> */}
-            <div className="pt-8">
-              <h4 className="font-medium mb-4">Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                {/* LinkedIn - Active */}
-                <a
-                  href="https://www.linkedin.com/in/your-linkedin-id/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Linkedin />
-                </a>
-
-                {/* Twitter - Inactive (placeholder) */}
-                <span className="opacity-50 cursor-not-allowed">
-                  <Twitter />
-                </span>
-
-                {/* Instagram - Inactive (placeholder) */}
-                <span className="opacity-50 cursor-not-allowed">
-                  <Instagram />
-                </span>
-
-                {/* Email - Active (replaces Twitch icon) */}
-                <a
-                  href="mailto:yourname@example.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Mail />
-                </a>
-              </div>
-            </div>
+          </div>
+            
 
 
             <div
